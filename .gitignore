@@ -2,5 +2,9 @@
 .gradle
 **/build/
 
+# Java
+*.class
+
 # IntelliJ
 .idea
+/out/
