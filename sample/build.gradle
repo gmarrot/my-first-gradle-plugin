@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         mavenLocal()
+        jcenter()
     }
 
     dependencies {
@@ -8,4 +9,11 @@ buildscript {
     }
 }
 
+version '1.0-SNAPSHOT'
+
 apply plugin: 'com.betomorrow.my-first-gradle-plugin'
+
+info {
+    filename "package.json"
+    logSize 1
+}
