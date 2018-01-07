@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'com.betomorrow.gradle:my-first-gradle-plugin:1.0-SNAPSHOT'
+    }
+}
+
+apply plugin: 'com.betomorrow.my-first-gradle-plugin'
