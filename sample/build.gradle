@@ -17,3 +17,13 @@ info {
     filename "package.json"
     logSize 1
 }
+
+task("info2", type: InfoTask) {
+    filename = "package2.json"
+    logSize = 4
+}
+
+task("info3", type: InfoTask) {
+    filename = "package3.json"
+    logSize = 10
+}
