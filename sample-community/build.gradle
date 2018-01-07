@@ -5,6 +5,6 @@ plugins {
 version '1.0-SNAPSHOT'
 
 info {
-    filename "package.json"
-    logSize 5
+    filename = "package.json"
+    logSize = 5
 }
